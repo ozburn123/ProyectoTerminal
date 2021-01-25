@@ -22,6 +22,7 @@ public class MineriaIMSS {
         ControladorResultados controller= new ControladorResultados(vista);
         controller.iniciar();
         vista.setVisible(true);
+        System.out.println("jas");
     }
     
 }
